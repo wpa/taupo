@@ -13,6 +13,6 @@ RUN apk add --update git
 COPY . /src
 RUN cd /src; npm install
 
-EXPOSE 8888 5001
+EXPOSE 8888
 CMD ["node", "/src/index.js"]
 
